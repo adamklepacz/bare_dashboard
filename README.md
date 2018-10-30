@@ -13,7 +13,7 @@ If you don’t want to work with lodash, just remove it from the node packages a
 ## Step 01: Download
 Clone into current directory
 ```sh
-git clone <this repo link> 
+git clone https://github.com/adamklepacz/webpack_bolierplate_ak92.git
 ```
 
 ## Step 02: Setup
@@ -37,20 +37,20 @@ $ npm run build
 ## Project structure
 # Javascript files
 app<br>
-  |---index.js 
-  |---/components
+  |---index.js<br>
+  |---/components<br>
 
 Index.js is Your entry point javascript file when You can import all your components from the component folder.
 A component folder is a place where You should storage modules responsible for the logic of a specific component in your project like ex. form, preloader, navbar etc.
 
 # Styles folder
-styles
-  |---/components 
-  |---/modules  
-  |---/globals
-  |---/templates
-  |---/variables
-  |---index.scss
+styles<br>
+  |---/components<br>
+  |---/modules<br>
+  |---/globals<br>
+  |---/templates<br>
+  |---/variables<br>
+  |---index.scss<br>
 
 Components folder is a place for generic, reusable, small components like buttons. 
 Modules folder is a place for sections of a website which use components.
