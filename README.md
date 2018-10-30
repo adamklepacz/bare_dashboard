@@ -40,8 +40,8 @@ app<br>
   |---index.js<br>
   |---/components<br>
 
-Index.js is Your entry point javascript file when You can import all your components from the component folder.
-A component folder is a place where You should storage modules responsible for the logic of a specific component in your project like ex. form, preloader, navbar etc.
+**Index.js** is Your entry point javascript file when You can import all your components from the component folder.
+**A component** folder is a place where You should storage modules responsible for the logic of a specific component in your project like ex. form, preloader, navbar etc.
 
 # Styles folder
 styles<br>
@@ -52,12 +52,12 @@ styles<br>
   |---/variables<br>
   |---index.scss<br>
 
-Components folder is a place for generic, reusable, small components like buttons. 
-Modules folder is a place for sections of a website which use components.
-Globals folder is a place where You should style your global elements like forms, typography, accessibility etc.
-Templates folder is a place where You should mostly define a spacing between components and modules, depends on where they appear on your project. Files examples which will be here in the folder: _homepage.scss, _contact-page.scss.
-Variables folder is a place where You should overwrite bootstrap variables and define Your own variables like _colors.scss, _spacing.scss etc.
-Index.scss is your application entry point, here You include all your files from other folders.
+**Components folder** is a place for generic, reusable, small components like buttons. <br>
+**Modules folder** is a place for sections of a website which use components.<br>
+**Globals folder** is a place where You should style your global elements like forms, typography, accessibility etc.<br>
+**Templates folder** is a place where You should mostly define a spacing between components and modules, depends on where they appear on your project. Files examples which will be here in the folder: _homepage.scss, _contact-page.scss.<br>
+**Variables folder** is a place where You should overwrite bootstrap variables and define Your own variables like _colors.scss, _spacing.scss etc.<br>
+**Index.scss** is your application entry point, here You include all your files from other folders.<br>
 
 ## [webpack](https://webpack.js.org/)
 If you're not familiar with webpack, the [webpack-dev-server](https://webpack.js.org/configuration/dev-server/) will serve the static files in your build folder and watch your source files for changes.
