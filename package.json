@@ -1,6 +1,6 @@
 {
   "name": "webpack-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plain webpack 4 Boilerplate with Babel, Sass, lodash, Bootstrap v4",
   "author": "Adam Klepacz",
   "license": "MIT",
