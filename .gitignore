@@ -1,0 +1,2 @@
+# Put here paths and file names which You dont want to store in your repository
+node_modules/
