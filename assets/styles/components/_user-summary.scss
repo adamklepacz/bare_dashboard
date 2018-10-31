@@ -1,0 +1,55 @@
+.user-summary {
+  background: $white;
+  box-shadow: 0px 43px 45px rgba($black, 0.0324955);
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+
+  &__desc {
+    margin-right: 50px;
+  }
+
+  &__photo {
+    margin-right: 20px;
+  }
+
+  &__name {
+    display: block;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 16px;
+    color: $text-color1;
+    margin-bottom: 6px;
+  }
+
+  &__icon {
+    margin-right: 6px;
+  }
+
+  &__email {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 13px;
+    color: $text-gray;
+  }
+
+  &__contact-info {
+    display: block;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 16px;
+    color: $text-color1;
+    margin-bottom: 7px;
+  }
+
+  &__address {
+    font-weight: 400;
+    line-height: 19px;
+    font-size: 13px;
+    color: $text-gray;
+  }
+
+}

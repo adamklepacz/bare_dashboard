@@ -1,0 +1,51 @@
+.main-menu {
+  padding: 0;
+
+  &__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__item {
+    display: block;
+    position: relative;
+    margin-right: -7px;
+    z-index: 1;
+
+    &:last-child {
+      margin-top: 100px;
+    }
+
+    &--active {
+      background-color: $white;
+      box-shadow: 0px 12px 18px rgba($black, 0.0354959);
+
+      &::before {
+        display: block;
+        content: '';
+        background-color: $turquise;
+        height: 100%;
+        width: 7px;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 16px;
+    color: $text-color1;
+    padding: 18px 0 18px 73px;
+  }
+
+  &__icon {
+    margin-right: 20px;
+  }
+
+}

@@ -1,0 +1,27 @@
+.user-info {
+  display: flex;
+  align-items: center;
+  padding-left: 73px;
+  margin: 0 auto 40px;
+
+  &__photo {
+    margin-right: 20px;
+  }
+
+  &__name {
+    display: block;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 18px;
+    color: $text-color1;
+    margin-bottom: 5px;
+  }
+
+  &__email {
+    display: block;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 14px;
+    color: $text-gray;
+  }
+}
