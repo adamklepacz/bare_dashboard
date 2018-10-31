@@ -1,4 +1,8 @@
-@mixin gradient-big-box() {
+@mixin gradient-grey-box() {
+  background: linear-gradient(45.49deg, #9BA1B5 -194.28%, #62687E 119.21%);
+}
+
+@mixin gradient-green-box() {
   background: linear-gradient(35.79deg, #BBEC75 0%, #AFE257 100%);
 }
 

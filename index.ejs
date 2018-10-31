@@ -12,46 +12,59 @@
   <body>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-3">
-          <div class="row">
+        <div class="col-12 col-xl-2 col-xxxl-3">
+          <div class="row sidebar-row">
             <div class="sidebar">
-              <div class="col-12 main-logo">
-                <img src="./assets/images/main-logo.png" alt="Main logo" class="main-logo__img">
-              </div>
+              <div class="row">
+                <div class="col-6 col-xl-12">
+                  <div class="main-logo">
+                    <img src="./assets/images/main-logo.png" alt="Main logo" class="main-logo__img">
+                  </div>
+                </div>
 
-              <div class="col-12 user-info">
-                <img src="./assets/images/user.png" alt="User profile photo" class="user-info__photo">
-                <div class="user-info__desc">
-                  <span class="user-info__name">Riki Bare</span>
-                  <span class="user-info__email">rikiBare@gmail.com</span>
+                <div class="col-6 col-xl-12">
+                  <div class="user-info">
+                    <img src="./assets/images/user.png" alt="User profile photo" class="user-info__photo">
+                    <div class="user-info__desc">
+                      <span class="user-info__name">Riki Bare</span>
+                      <span class="user-info__email">rikiBare@gmail.com</span>
+                    </div>
+                  </div>
                 </div>
               </div>
 
               <div class="col-12 main-menu">
                 <ul class="main-menu__list">
-                  <li class="main-menu__item main-menu__item--active"><a href="#!" class="main-menu__link"><img src="./assets/images/icons/user-icon.svg" alt="User icon" class="main-menu__icon">My Profile</a></li>
-                  <li class="main-menu__item"><a href="#!" class="main-menu__link"><img src="./assets/images/icons/portfolio.svg" alt="Portfolio icon" class="main-menu__icon">Portfolio</a></li>
-                  <li class="main-menu__item"> <a href="#!" class="main-menu__link"><img src="./assets/images/icons/basket.svg" alt="Basket icon" class="main-menu__icon">Buying</a></li>
-                  <li class="main-menu__item"><a href="#!" class="main-menu__link"><img src="./assets/images/icons/selling.svg" alt="Selling icon" class="main-menu__icon">Selling</a></li>
-                  <li class="main-menu__item"><a href="#!" class="main-menu__link"><img src="./assets/images/icons/manage.svg" alt="Manage icon" class="main-menu__icon">Menage Events</a></li>
-                  <li class="main-menu__item main-menu__settings"><a href="#!" class="main-menu__link"><img src="./assets/images/icons/settings.svg" alt="Settings icon" class="main-menu__icon">Settings</a></li>
+                  <li class="main-menu__item main-menu__item--active"><a href="#!" class="main-menu__link"><img src="./assets/images/icons/user-icon.svg"
+                        alt="User icon" class="main-menu__icon">My Profile</a></li>
+                  <li class="main-menu__item"><a href="#!" class="main-menu__link"><img src="./assets/images/icons/portfolio.svg"
+                        alt="Portfolio icon" class="main-menu__icon">Portfolio</a></li>
+                  <li class="main-menu__item"> <a href="#!" class="main-menu__link"><img src="./assets/images/icons/basket.svg"
+                        alt="Basket icon" class="main-menu__icon">Buying</a></li>
+                  <li class="main-menu__item"><a href="#!" class="main-menu__link"><img src="./assets/images/icons/selling.svg"
+                        alt="Selling icon" class="main-menu__icon">Selling</a></li>
+                  <li class="main-menu__item"><a href="#!" class="main-menu__link"><img src="./assets/images/icons/manage.svg"
+                        alt="Manage icon" class="main-menu__icon">Menage Events</a></li>
+                  <li class="main-menu__item main-menu__settings"><a href="#!" class="main-menu__link"><img src="./assets/images/icons/settings.svg"
+                        alt="Settings icon" class="main-menu__icon">Settings</a></li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-9 main-right">
+        <div class="col-12 col-xl-10 col-xxxl-9 main-right">
           <main class="main-content">
-            <div class="row">
+            <div class="row main-content__first-row">
               <div class="col-12">
                 <h1 class="main-content__h1 main-heading">My account</h1>
               </div>
-              <div class="col-6">
+              <div class="col-12 col-xl-5 col-xxxl-4">
                 <div class="user-summary">
                   <img src="./assets/images/user.png" alt="User profile photo" class="user-summary__photo">
                   <div class="user-summary__desc">
                     <span class="user-summary__name">Riki Bare</span>
-                    <span class="user-summary__email"><img src="./assets/images/icons/email.svg" alt="Email icon" class="user-summary__icon"> rikiBare@gmail.com</span>
+                    <a href="mailto:rikiBare@gmail.com" class="user-summary__email"><img src="./assets/images/icons/email.svg"
+                        alt="Email icon" class="user-summary__icon"> rikiBare@gmail.com</a>
                   </div>
                   <div class="user-summary__contact">
                     <span class="user-summary__contact-info">Contact info</span>
@@ -63,164 +76,200 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 profit-box-wrapper">
+              <div class="col-12 col-xl-7 col-xxxl-5 profit-box-wrapper">
                 <div class="profit-box profit-box--gray">
-                  <span class="profit-box__price">$24.25</span>
-                  <span class="profit-box__desc">Total sales</span>
+                  <div class="profit-box__content">
+                    <span class="profit-box__price">$24.25</span>
+                    <span class="profit-box__desc">Total sales</span>
+                  </div>
                 </div>
                 <div class="profit-box profit-box--gray">
-                  <span class="profit-box__price">$242.25</span>
-                  <span class="profit-box__desc">Total prices</span>
+                  <div class="profit-box__content">
+                    <span class="profit-box__price">$242.25</span>
+                    <span class="profit-box__desc">Total prices</span>
+                  </div>
                 </div>
                 <div class="profit-box profit-box--green">
-                  <span class="profit-box__price">$55.25</span>
-                  <span class="profit-box__desc">Total profit</span>
+                  <div class="profit-box__content">
+                    <span class="profit-box__price">$55.25</span>
+                    <span class="profit-box__desc">Total Profit</span>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-6">
+            <div class="row main-content__second-row">
+              <div class="col-12 col-xl-5 col-xxxl-4">
                 <div class="row">
-                  <div class="col-12 payment">
+                  <div class="col-12">
                     <h2 class="main-heading">Payment options</h2>
-                    <div class="row">
-                      <div class="col-12">
-                        <img src="./assets/images/visa.png" alt="Visa Credit Card" class="payment__visa">
-                        <div class="payment__card-info">
-                          <span class="payment__gray">Card info</span><span class="payment__details">xxxx xxx xxxxx
-                            8989</span>
-                          <span class="payment__gray">Expires</span><span class="payment__details">20.04.2019</span>
-                          <span class="payment__gray">Name on card</span><span class="payment__details">Riki Sneakers</span>
+                  </div>
+                  <div class="col-12">
+                    <div class="payment">
+                      <div class="row payment__row">
+                        <div class="col-12 col-xl-2">
+                          <img src="./assets/images/visa.png" alt="Visa Credit Card" class="payment__visa">
                         </div>
-                      </div>
-                      <div class="col-6 offset-3">
-                        <span class="payment__gray">Card info</span>
-                        <address class="payment__address">
-                          123 Kell road<br>
-                          London, United Kingdom<br>
-                          ME6 5HN<br>
-                        </address>
+                        <div class="col-12 col-xl-10">
+                          <div class="payment__card-info">
+                            <div class="payment__card-keys">
+                              <span class="payment__gray">Card info:</span>
+                              <span class="payment__gray">Expires:</span>
+                              <span class="payment__gray">Name on card:</span>
+                            </div>
+                            <div class="payment__card-values">
+                              <span class="payment__details">xxxx xxx xxxxx
+                                8989</span>
+                              <span class="payment__details">20.04.2019</span>
+                              <span class="payment__details">Riki Sneakers</span>
+                            </div>
+                          </div>
+
+                          <div class="payment__card-biling">
+                            <span class="payment__gray">Billing info</span>
+                            <address class="payment__address">
+                              123 Kell road<br>
+                              London, United Kingdom<br>
+                              ME6 5HN<br>
+                            </address>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
+                  <div class="col-12">
+                    <h2 class="main-heading">Recently viewed</h2>
+                  </div>
                   <div class="col-12 recently-viewed">
-                    <div class="col-12 recently-viewed__item">
-                      <img src="./assets/images/sneakers1.png" alt="Sneakres photo" class="recently-viewed__photo">
-                      <div class="recently-viewed__desc">
-                        <span class="recently-viewed__title">Air Yeezy 2</span>
-                        <span class="recently-viewed__coor">Red October</span>
-                        <span class="recently-viewed__size">US Men's Size 11</span>
-                        <a href="#!" class="recently-viewed__cta">
-                          <img src="./assets/images/icons/basket.svg" alt="Basket icon" class="recently-viewed__basket">
-                          <span class="recently-viewed__price">$50</span>
-                        </a>
+                    <div class="col-12">
+                      <div class="recently-viewed__item">
+                        <img src="./assets/images/sneakers1.png" alt="Sneakres photo" class="recently-viewed__photo">
+                        <div class="recently-viewed__desc">
+                          <span class="recently-viewed__title">Air Yeezy 2</span>
+                          <span class="recently-viewed__model">Red October</span>
+                          <span class="recently-viewed__size">US Men's Size 11</span>
+                          <a href="#!" class="recently-viewed__cta cta-button">
+                            <img src="./assets/images/icons/basket.svg" alt="Basket icon" class="recently-viewed__basket">
+                            <span class="recently-viewed__price">$50</span>
+                          </a>
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-12 recently-viewed__item">
-                      <img src="./assets/images/sneakers1.png" alt="Sneakres photo" class="recently-viewed__photo">
-                      <div class="recently-viewed__desc">
-                        <span class="recently-viewed__title">Air Yeezy 2</span>
-                        <span class="recently-viewed__coor">Red October</span>
-                        <span class="recently-viewed__size">US Men's Size 11</span>
-                        <a href="#!" class="recently-viewed__cta">
-                          <img src="./assets/images/icons/basket.svg" alt="Basket icon" class="recently-viewed__basket">
-                          <span class="recently-viewed__price">$50</span>
-                        </a>
+                      <div class="recently-viewed__item">
+                        <img src="./assets/images/sneakers2.png" alt="Sneakres photo" class="recently-viewed__photo">
+                        <div class="recently-viewed__desc">
+                          <span class="recently-viewed__title">Air Yeezy 2</span>
+                          <span class="recently-viewed__model">Red October</span>
+                          <span class="recently-viewed__size">US Men's Size 11</span>
+                          <a href="#!" class="recently-viewed__cta cta-button">
+                            <img src="./assets/images/icons/basket.svg" alt="Basket icon" class="recently-viewed__basket">
+                            <span class="recently-viewed__price">$50</span>
+                          </a>
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-12 recently-viewed__item">
-                      <img src="./assets/images/sneakers1.png" alt="Sneakres photo" class="recently-viewed__photo">
-                      <div class="recently-viewed__desc">
-                        <span class="recently-viewed__title">Air Yeezy 2</span>
-                        <span class="recently-viewed__coor">Red October</span>
-                        <span class="recently-viewed__size">US Men's Size 11</span>
-                        <a href="#!" class="recently-viewed__cta">
-                          <img src="./assets/images/icons/basket.svg" alt="Basket icon" class="recently-viewed__basket">
-                          <span class="recently-viewed__price">$50</span>
-                        </a>
+                      <div class="recently-viewed__item">
+                        <img src="./assets/images/sneakers3.png" alt="Sneakres photo" class="recently-viewed__photo">
+                        <div class="recently-viewed__desc">
+                          <span class="recently-viewed__title">Air Yeezy 2</span>
+                          <span class="recently-viewed__model">Red October</span>
+                          <span class="recently-viewed__size">US Men's Size 11</span>
+                          <a href="#!" class="recently-viewed__cta cta-button">
+                            <img src="./assets/images/icons/basket.svg" alt="Basket icon" class="recently-viewed__basket">
+                            <span class="recently-viewed__price">$50</span>
+                          </a>
+                        </div>
                       </div>
+
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-6">
+              <div class="col-12 col-xl-7 col-xxxl-5 my-watchlist">
                 <div class="col-12">
                   <h2 class="main-heading">My Watchlist</h2>
                 </div>
-                <div class="col-12 watchlist-item">
-                  <a href="#!" class="watchlist-item__link">
-                    X
-                  </a>
-                  <img src="./assets/images/sneakers1.png" alt="Sneakers photo" class="watchlist-item__photo">
-                  <div class="watchlist-item__desc">
-                    <span class="watchlist-item__title">Nike Air Mag</span>
-                    <span class="watchlist-item__size">US Men's 11</span>
-                    <span class="watchlist-item__model">Back to the future (2016)</span>
+                <div class="col-12 my-watchlist__item">
+                  <div class="watchlist-item">
+                    <a href="#!" class="watchlist-item__link">
+                      <img src="./assets/images/icons/close-icon.svg" alt="Close icon" class="watchlist-item__close">
+                    </a>
+                    <img src="./assets/images/sneakers4.png" alt="Sneakers photo" class="watchlist-item__photo">
+                    <div class="watchlist-item__desc">
+                      <span class="watchlist-item__title">Nike Air Mag</span>
+                      <span class="watchlist-item__model">Back to the future (2016)</span>
+                      <span class="watchlist-item__size">US Men's 11</span>
+                    </div>
+                    <a href="#!" class="watchlist-item__cta cta-button">
+                      <img src="./assets/images/icons/basket.svg" alt="Basket icon" class="watchlist-item__basket">
+                      <span class="watchlist-item__price">$50</span>
+                    </a>
                   </div>
-                  <a href="#!" class="watchlist-item__cta">
-                    <img src="./assets/images/icons/basket.svg" alt="Basket icon" class="watchlist-item__basket">
-                    <span class="watchlist-item__price">$50</span>
-                  </a>
                 </div>
-                <div class="col-12 watchlist-item">
-                  <a href="#!" class="watchlist-item__link">
-                    X
-                  </a>
-                  <img src="./assets/images/sneakers1.png" alt="Sneakers photo" class="watchlist-item__photo">
-                  <div class="watchlist-item__desc">
-                    <span class="watchlist-item__title">Nike Air Mag</span>
-                    <span class="watchlist-item__size">US Men's 11</span>
-                    <span class="watchlist-item__model">Back to the future (2016)</span>
+                <div class="col-12 my-watchlist__item">
+                  <div class="watchlist-item">
+                    <a href="#!" class="watchlist-item__link">
+                      <img src="./assets/images/icons/close-icon.svg" alt="Close icon" class="watchlist-item__close">
+                    </a>
+                    <img src="./assets/images/sneakers4.png" alt="Sneakers photo" class="watchlist-item__photo">
+                    <div class="watchlist-item__desc">
+                      <span class="watchlist-item__title">Nike Air Mag</span>
+                      <span class="watchlist-item__model">Back to the future (2016)</span>
+                      <span class="watchlist-item__size">US Men's 11</span>
+                    </div>
+                    <a href="#!" class="watchlist-item__cta cta-button">
+                      <img src="./assets/images/icons/basket.svg" alt="Basket icon" class="watchlist-item__basket">
+                      <span class="watchlist-item__price">$50</span>
+                    </a>
                   </div>
-                  <a href="#!" class="watchlist-item__cta">
-                    <img src="./assets/images/icons/basket.svg" alt="Basket icon" class="watchlist-item__basket">
-                    <span class="watchlist-item__price">$50</span>
-                  </a>
                 </div>
-                <div class="col-12 watchlist-item">
-                  <a href="#!" class="watchlist-item__link">
-                    X
-                  </a>
-                  <img src="./assets/images/sneakers1.png" alt="Sneakers photo" class="watchlist-item__photo">
-                  <div class="watchlist-item__desc">
-                    <span class="watchlist-item__title">Nike Air Mag</span>
-                    <span class="watchlist-item__size">US Men's 11</span>
-                    <span class="watchlist-item__model">Back to the future (2016)</span>
+                <div class="col-12 my-watchlist__item">
+                  <div class="watchlist-item">
+                    <a href="#!" class="watchlist-item__link">
+                      <img src="./assets/images/icons/close-icon.svg" alt="Close icon" class="watchlist-item__close">
+                    </a>
+                    <img src="./assets/images/sneakers4.png" alt="Sneakers photo" class="watchlist-item__photo">
+                    <div class="watchlist-item__desc">
+                      <span class="watchlist-item__title">Nike Air Mag</span>
+                      <span class="watchlist-item__model">Back to the future (2016)</span>
+                      <span class="watchlist-item__size">US Men's 11</span>
+                    </div>
+                    <a href="#!" class="watchlist-item__cta cta-button">
+                      <img src="./assets/images/icons/basket.svg" alt="Basket icon" class="watchlist-item__basket">
+                      <span class="watchlist-item__price">$50</span>
+                    </a>
                   </div>
-                  <a href="#!" class="watchlist-item__cta">
-                    <img src="./assets/images/icons/basket.svg" alt="Basket icon" class="watchlist-item__basket">
-                    <span class="watchlist-item__price">$50</span>
-                  </a>
                 </div>
-                <div class="col-12 watchlist-item">
-                  <a href="#!" class="watchlist-item__link">
-                    X
-                  </a>
-                  <img src="./assets/images/sneakers1.png" alt="Sneakers photo" class="watchlist-item__photo">
-                  <div class="watchlist-item__desc">
-                    <span class="watchlist-item__title">Nike Air Mag</span>
-                    <span class="watchlist-item__size">US Men's 11</span>
-                    <span class="watchlist-item__model">Back to the future (2016)</span>
+                <div class="col-12 my-watchlist__item">
+                  <div class="watchlist-item">
+                    <a href="#!" class="watchlist-item__link">
+                      <img src="./assets/images/icons/close-icon.svg" alt="Close icon" class="watchlist-item__close">
+                    </a>
+                    <img src="./assets/images/sneakers4.png" alt="Sneakers photo" class="watchlist-item__photo">
+                    <div class="watchlist-item__desc">
+                      <span class="watchlist-item__title">Nike Air Mag</span>
+                      <span class="watchlist-item__model">Back to the future (2016)</span>
+                      <span class="watchlist-item__size">US Men's 11</span>
+                    </div>
+                    <a href="#!" class="watchlist-item__cta cta-button">
+                      <img src="./assets/images/icons/basket.svg" alt="Basket icon" class="watchlist-item__basket">
+                      <span class="watchlist-item__price">$50</span>
+                    </a>
                   </div>
-                  <a href="#!" class="watchlist-item__cta">
-                    <img src="./assets/images/icons/basket.svg" alt="Basket icon" class="watchlist-item__basket">
-                    <span class="watchlist-item__price">$50</span>
-                  </a>
                 </div>
-                <div class="col-12 watchlist-item">
-                  <a href="#!" class="watchlist-item__link">
-                    X
-                  </a>
-                  <img src="./assets/images/sneakers1.png" alt="Sneakers photo" class="watchlist-item__photo">
-                  <div class="watchlist-item__desc">
-                    <span class="watchlist-item__title">Nike Air Mag</span>
-                    <span class="watchlist-item__size">US Men's 11</span>
-                    <span class="watchlist-item__model">Back to the future (2016)</span>
+                <div class="col-12 my-watchlist__item">
+                  <div class="watchlist-item">
+                    <a href="#!" class="watchlist-item__link">
+                      <img src="./assets/images/icons/close-icon.svg" alt="Close icon" class="watchlist-item__close">
+                    </a>
+                    <img src="./assets/images/sneakers4.png" alt="Sneakers photo" class="watchlist-item__photo">
+                    <div class="watchlist-item__desc">
+                      <span class="watchlist-item__title">Nike Air Mag</span>
+                      <span class="watchlist-item__model">Back to the future (2016)</span>
+                      <span class="watchlist-item__size">US Men's 11</span>
+                    </div>
+                    <a href="#!" class="watchlist-item__cta cta-button">
+                      <img src="./assets/images/icons/basket.svg" alt="Basket icon" class="watchlist-item__basket">
+                      <span class="watchlist-item__price">$50</span>
+                    </a>
                   </div>
-                  <a href="#!" class="watchlist-item__cta">
-                    <img src="./assets/images/icons/basket.svg" alt="Basket icon" class="watchlist-item__basket">
-                    <span class="watchlist-item__price">$50</span>
-                  </a>
                 </div>
               </div>
             </div>

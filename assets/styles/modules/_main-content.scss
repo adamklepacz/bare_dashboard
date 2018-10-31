@@ -4,9 +4,17 @@
 
 .main-content {
   background-color: $bg-color;
-  padding: 50px 0 76px 100px; 
+  padding: 50px 0 76px 30px; 
+
+  @include media-breakpoint-up(xxxl) {
+     padding: 50px 0 76px 100px;
+  }
 
   &__h1 {
     margin-bottom: 22px;
+  }
+
+  &__first-row {
+    margin-bottom: 40px;
   }
 }

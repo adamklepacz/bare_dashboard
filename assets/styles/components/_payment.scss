@@ -1,0 +1,67 @@
+.payment {
+  background: $white;
+  box-shadow: 0px 43px 45px rgba($black, 0.0324955);
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 40px;
+
+  &__card-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 21px;
+
+   span {
+     display: block;
+   }
+  }
+
+  &__visa {
+    margin-bottom: 10px;
+
+    @include media-breakpoint-up(xl) {
+      margin: 0;
+    }
+  }
+
+  &__gray {
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 16px;
+    color: $text-gray;
+    margin-bottom: 6px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__details {
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 13px;
+    color: $text-color1;
+    margin-bottom: 12px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__card-keys {
+    margin-right: 15px;
+  }
+
+  &__address {
+    font-weight: 400;
+    line-height: 19px;
+    font-size: 13px;
+    color: $text-color1;
+  }
+
+  &__card-biling {
+    span { 
+      display: block;
+      margin-bottom: 8px;
+    }
+  }
+}

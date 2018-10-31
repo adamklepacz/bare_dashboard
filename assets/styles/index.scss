@@ -20,12 +20,17 @@
 // Like forms, typography etc.
 @import './globals/mixins';
 @import './globals/typography';
+@import './globals/buttons';
 
 // 4. Components
 // Small, generic componentes
 @import './components/main-logo';
 @import './components/user-info-sidebar';
 @import './components/user-summary';
+@import './components/payment';
+@import './components/watchlist-item';
+@import './components/recently-viewed';
+
 
 // 5. Modules
 // Sections of website
@@ -33,6 +38,7 @@
 @import './modules/main-menu';
 @import './modules/main-content';
 @import './modules/profit-box';
+@import './modules/my-watchlist';
 
 // 6. Templates
 // Like homepage, subpage etc.
