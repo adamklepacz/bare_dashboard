@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "cross-env NODE_ENV=dev webpack-dev-server --progress --mode development --config webpack.config.dev.js",
-    "build": "webpack -p --progress --mode production --config webpack.config.build.js"
+    "build": "webpack -p --progress --mode production --config webpack.config.build.js",
+    "stylelint": "stylelint 'src/assets/styles/**/*.scss'"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,7 @@
     "node-sass": "4.9.3",
     "sass-loader": "7.1.0",
     "style-loader": "0.23.1",
+    "stylelint": "^9.7.1",
     "url-loader": "1.1.1",
     "webpack": "4.20.2",
     "webpack-cli": "3.1.2",
