@@ -1,0 +1,11 @@
+@mixin gradient-big-box() {
+  background: linear-gradient(35.79deg, #BBEC75 0%, #AFE257 100%);
+}
+
+@mixin gradient-green-button() {
+  background: linear-gradient(17.35deg, #BBEC75 0%, #AFE257 100%);
+}
+
+@mixin gradient-red() {
+  background: linear-gradient(247.88deg, #FF5E6C -60.99%, #FF8FA0 254.55%);
+}
